@@ -1,8 +1,8 @@
-# TF Multi Region Generator
+# TF Multi Region Lambda
 
 ## Introduction
 
-Generate Terraform code for multiple (AWS) regions based on Jinja2 templating
+Deploy Lambda in multiple regions.. powered by [Serverless-TF](https://github.com/rms1000watt/serverless-tf)
 
 ## Contents
 
@@ -16,6 +16,8 @@ brew install terraform ngrok
 ```
 
 ## Usage
+
+You can test deploying multi-region lambdas and have them spam your local server using Ngrok
 
 ### In one terminal
 
