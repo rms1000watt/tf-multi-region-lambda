@@ -13,7 +13,7 @@ Deploy Lambda in multiple regions.. powered by [Serverless-TF](https://github.co
 
 ```bash
 brew install terraform
-brew cask install ngrok
+brew cask install ngrok docker
 ```
 
 ## Usage
