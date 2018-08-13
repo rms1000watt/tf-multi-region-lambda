@@ -22,6 +22,8 @@ func Handler() (res Response, err error) {
 	r, err := http.Get(url)
 	if err != nil {
 		res.Message = "Failed getting URL: " + err.Error()
+		fmt.Println(res)
+		return
 	}
 
 	res.Success = true
